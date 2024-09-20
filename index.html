@@ -8,13 +8,14 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #f4f4f4;
+            background-color: #e6f0fa; /* لون خلفية أفتح */
             margin: 0;
             padding: 0;
         }
         nav {
-            background-color: #333;
+            background-color: #5b2e91; /* لون بنفسجي أغمق */
             padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         nav a {
             color: white;
@@ -22,9 +23,10 @@
             text-decoration: none;
             text-align: center;
             display: inline-block;
+            transition: background-color 0.3s;
         }
         nav a:hover {
-            background-color: #575757;
+            background-color: #4682b4; /* لون أزرق غامق */
         }
         .exercise {
             margin: 20px;
@@ -32,10 +34,24 @@
             background-color: #fff;
             border: 1px solid #ddd;
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #6a0dad; /* لون بنفسجي */
         }
         h2 {
-            color: #333;
+            color: #6a0dad; /* لون بنفسجي */
+        }
+        p {
+            color: #333; /* لون نص داكن */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .video {
+            margin: 20px 0;
         }
     </style>
 </head>
@@ -45,26 +61,61 @@
         <a href="#pushups">تمرين الضغط</a>
         <a href="#benchpress">البنش برس</a>
         <a href="#dumbbellfly">التفتيح بالدمبل</a>
+        <a href="#inclinebenchpress">البنش المائل</a>
+        <a href="#chestpress">الضغط على الصدر</a>
+        <a href="diet.html">نظام غذائي</a>
     </nav>
 
     <h1>تمارين الصدر</h1>
 
     <div class="exercise" id="pushups">
         <h2>تمرين الضغط (Push-ups)</h2>
+        <img src="https://example.com/pushups.jpg" alt="تمرين الضغط">
         <p>تمرين الضغط هو تمرين فعال يعمل على تقوية عضلات الصدر والأكتاف.</p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_l3ySVKYVJ8" frameborder="0" allowfullscreen></iframe>
+        </div>
         <a href="https://www.youtube.com/watch?v=_l3ySVKYVJ8" target="_blank">شاهد التمرين</a>
     </div>
 
     <div class="exercise" id="benchpress">
         <h2>تمرين البنش برس (Bench Press)</h2>
+        <img src="https://example.com/benchpress.jpg" alt="البنش برس">
         <p>يُعتبر البنش برس أحد أهم تمارين الصدر، حيث يتم باستخدام البار ووزن مناسب لتقوية عضلات الصدر.</p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gRVjAtPip0Y" frameborder="0" allowfullscreen></iframe>
+        </div>
         <a href="https://www.youtube.com/watch?v=gRVjAtPip0Y" target="_blank">شاهد التمرين</a>
     </div>
 
     <div class="exercise" id="dumbbellfly">
         <h2>تمرين التفتيح بالدمبل (Dumbbell Fly)</h2>
+        <img src="https://example.com/dumbbellfly.jpg" alt="التفتيح بالدمبل">
         <p>يعمل هذا التمرين على تحسين شكل الصدر ويستهدف عضلات الصدر بشكل أكبر.</p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eozdVDA78K0" frameborder="0" allowfullscreen></iframe>
+        </div>
         <a href="https://www.youtube.com/watch?v=eozdVDA78K0" target="_blank">شاهد التمرين</a>
+    </div>
+
+    <div class="exercise" id="inclinebenchpress">
+        <h2>تمرين البنش المائل (Incline Bench Press)</h2>
+        <img src="https://example.com/inclinebenchpress.jpg" alt="البنش المائل">
+        <p>يستهدف هذا التمرين الجزء العلوي من عضلات الصدر ويستخدم بار أو دمبل.</p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ht6qHeqL73I" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <a href="https://www.youtube.com/watch?v=Ht6qHeqL73I" target="_blank">شاهد التمرين</a>
+    </div>
+
+    <div class="exercise" id="chestpress">
+        <h2>تمرين الضغط على الصدر (Chest Press)</h2>
+        <img src="https://example.com/chestpress.jpg" alt="الضغط على الصدر">
+        <p>تمرين فعّال يهدف إلى تقوية عضلات الصدر باستخدام بار أو دمبل.</p>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1J2K3cD-2B4" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <a href="https://www.youtube.com/watch?v=1J2K3cD-2B4" target="_blank">شاهد التمرين</a>
     </div>
 
 </body>
